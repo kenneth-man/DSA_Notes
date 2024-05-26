@@ -1,37 +1,40 @@
 ## **Big O**
-- ### Language we use to describe how long a function takes to run
+- ### Describes how long a function takes to run
+- ### As input size increases, how much does the function slowdown?
+- ### Cheatsheet = https://www.bigocheatsheet.com/
 
-<br>
+![](./img/big_o.png)
 
-## **Scalability**
-- ### As the input size increases, how much does the function slowdown?
+![](./img/big_o_2.png)
+
+![](./img/big_o_3.png)
 
 <br>
 
 ## **Big O Time Complexity**
 - ### **O(1)**
-	- ### ***Constant*** = No loops
+	- ### ***Constant***
+		- ### No loops, Direct Access
 - ### **O(log N)**
-	- ### ***Logarithmic*** = Usually searching algorithms if they are already sorted e.g. Binary Search
+	- ### ***Logarithmic***
+		- ### Usually searching algorithms if they are already sorted e.g. Binary Search
+		- ### Problem set halved every iteration
 - ### **O(n)**
-	- ### ***Linear*** = Single loop through (N) items
+	- ### ***Linear***
+		- ### Single loop through all items
 - ### **O(n log(n))**
-	- ### ***Log Linear*** = Usually sorting operations
+	- ### ***Log Linear***
+		- ### Usually divide and conquer sorting operations; merge sort, quick sort
 - ### **O(n^2)**
-	- ### ***Quadratic*** = Each element in a collection is compared with every other element
-	- ### 2 nested loops
+	- ### ***Quadratic***
+		- ### Nested loops
+		- ### Each element in a collection is compared with every other element
 - ### **O(2^n)**
-	- ### ***Exponential*** = Recursive algorithms that solve a problem of size (N)
+	- ### ***Exponential***
+		- ### Recursive algorithms that solve a problem of size (N)
 - ### **O(n!)**
-	- ### ***Factorial*** = Adding a loop for every element
-
-<br>
-
-![](./img/big_o.png)
-
-### Iterating through half a collection is still O(n).
-
-### Two separate collections: O(a * b).
+	- ### ***Factorial***
+		- ### Adding a loop for every element
 
 <br>
 
@@ -40,6 +43,11 @@
 - ### Comparisons (<, >, ==)
 - ### Looping (for, while)
 - ### Outside Function call (function())
+
+<br>
+
+## **Space Complexity**
+- ### As input size increases, how much memory does the function require?
 
 <br>
 
